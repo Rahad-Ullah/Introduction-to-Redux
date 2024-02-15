@@ -1,5 +1,8 @@
+import { useContext } from "react";
+import { COUNTER_CONTEXT } from "../../contexts/CounterContext";
 
-const Child_2 = ({counter, setCounter}) => {
+const Child_2 = () => {
+    const {counter, setCounter} = useContext(COUNTER_CONTEXT)
     
     return (
         <div className="w-1/2 mx-auto border-2 border-green-500 pb-8">

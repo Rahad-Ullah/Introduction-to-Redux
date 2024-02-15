@@ -1,7 +1,5 @@
-import { useState } from "react";
 
-const Child_2 = () => {
-    const [counter, setCounter] = useState(0)
+const Child_2 = ({counter, setCounter}) => {
     
     return (
         <div className="w-1/2 mx-auto border-2 border-green-500 pb-8">

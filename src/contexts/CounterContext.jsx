@@ -14,7 +14,7 @@ const CounterContext = ({children}) => {
     return (
         <COUNTER_CONTEXT.Provider value={value}>
             {children}
-        </COUNTER_CONTEXT.Provider>
+        </COUNTER_CONTEXT>
     );
 };
 
